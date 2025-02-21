@@ -1,0 +1,54 @@
+collections:
+  'The Defenders':
+    tmdb_show_details:
+      - 62285 # The Defenders
+      - 38472 # Jessica Jones
+      - 62126 # Luke Cage
+      - 61889 # Daredevil
+      - 62127 # Iron Fist
+    sort_title: 'Marvel: The Defenders'
+  'Marvel':
+    tmdb_show_details:
+      - 62285  # The Defenders
+      - 38472  # Jessica Jones
+      - 62126  # Luke Cage
+      - 61889  # Daredevil
+      - 62127  # Iron Fist
+      - 69629  # The Gifted
+      - 88329  # Hawkeye
+      - 88987  # Helstrom
+      - 88396  # The Falcon and the Winter Soldier
+      - 67195  # Legion
+      - 84958  # Loki
+      - 66190  # Cloak & Dagger
+      - 68716  # Inhumans
+      - 67178  # The Punisher
+      - 92749  # Moon Knight
+      - 92782  # Ms Marvel
+      - 92783  # She Hulk
+      - 85271  # WandaVision
+      - 91363  # What If...?
+      - 61550  # Agent Carter
+      - 4574   # X-Men: Animated Series
+      - 138502 # X-Men '97
+      - 122226 # Echo
+      - 114695 # Legends
+      - 133903 # Hit Monkey
+      - 114472 # Secret Invasion
+      - 888    # Spider-Man: Animated Series
+      - 127635 # Spidey and His Amazing Friends
+      - 92788  # Moon Girl and Devil Dinosaur
+    tvdb_show_details:
+      - 393201 # I Am Groot
+    sort_title: 'Marvel'
+  'Buffyverse':
+    tmdb_show_details:
+      - 95    # Buffy
+      - 2426  # Angel
+      - 65316 # Buffy: Animated Series
+    sort_title: 'Buffyverse'
+  'Immortal Universe':
+    tmdb_show_details:
+      - 128098 # Interview with the Vampire
+      - 207863 # Mayfair Witches
+    sort_title: 'Immortal Universe'

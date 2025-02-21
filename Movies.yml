@@ -1,0 +1,715 @@
+collections:
+  ## Dynamic Collections -----------------------------------------------------------------
+  "Trending Movies":
+    trakt_chart:
+      chart: trending
+      limit: 10
+    collection_order: custom
+    sync_mode: sync
+    sort_title: 0.1-Trending
+  "Popular Movies":
+    trakt_chart:
+      chart: popular
+      limit: 10
+    collection_order: custom
+    sync_mode: sync
+    sort_title: 0.2-Popular
+  "Trending Horror Movies":
+    trakt_chart:
+      chart: trending
+      limit: 10
+      genres: horror
+    collection_order: custom
+    sync_mode: sync
+    sort_title: 0.3-Trending_Horror
+  "Trending Childrens Movies":
+    trakt_chart:
+      chart: trending
+      limit: 10
+      certifications: pg
+    collection_order: custom
+    sync_mode: sync
+    sort_title: 0.4_Trending_Childrens_Movies
+  ## Marvel Collections ------------------------------------------------------------------
+  "Marvel Cinematic Universe":
+    sort_title: Marvel-1 Marvel Cinematic Universe
+    tmdb_movie_details:
+      - 1771   # Captain America: The First Avenger (Phase 1)
+      - 299537 # Captain Marvel (Phase 3)
+      - 1726   # Iron Man (Phase 1)
+      - 10138  # Iron Man 2 (Phase 1)
+      - 1724   # The Incredible Hulk (Phase 1)
+      - 10195  # Thor (Phase 1)
+      - 24428  # The Avengers (Phase 1)
+      - 76338  # Thor: Dark World (Phase 2)
+      - 68721  # Iron Man 3 (Phase 2)
+      - 100402 # Captain America: The Winter Soldier (Phase 2)
+      - 118340 # Guardians of the Galaxy (Phase 2)
+      - 283995 # Guardians of the Galaxy Vol. 2 (Phase 3)
+      - 99861  # Avengers: Age of Ultron (Phase 2)
+      - 102899 # Ant-Man (Phase 2)
+      - 271110 # Captain America: Civil War (Phase 3)
+      - 497698 # Black Widow (Phase 4)
+      - 284052 # Doctor Strange (Phase 3)
+      - 284054 # Black Panther (Phase 3)
+      - 315635 # Spider-Man: Homecoming (Phase 3)
+      - 284053 # Thor: Ragnarok (Phase 3)
+      - 363088 # Ant-Man and the Wasp (Phase 3)
+      - 299536 # The Avengers: Infinity War (Phase 3)
+      - 299534 # The Avengers: Endgame (Phase 3)
+      - 566525 # Shang-Chi and the Legend of the Ten Rings (Phase 4)
+      - 524434 # Eternals (Phase 4)
+      - 429617 # Spider-Man: Far From Home (Phase 3)
+      - 634649 # Spider-Man: No Way Home (Phase 4)
+      - 453395 # Doctor Strange: Multiverse of Madness (Phase 4)
+      - 505642 # Black Panther: Wakanda Forever (Phase 4)
+      - 616037 # Thor: Love and Thunder (Phase 4)
+      - 894205 # Werewolf by Night (Phase 4)
+      - 640146 # Ant-Man and The Wasp: Quantumania (Phase 5)
+      - 447365 # Guardians of the Galaxy Vol.3  (Phase 5)
+      - 609681 # The Marvels (Phase 5)
+      - 822119 # Captain America: Brave New World (Phase 5)
+      - 986056 # Thunderbolts (Phase 5)
+      - 617126 # The Fantastic Four: First Steps (Phase 6)
+      #### Unreleased / Unknown
+      - 617127  # Blade (Phase 5)
+      - 1003596 # Avengers: Doomsday (Phase 6)
+      - 1003598 # Avengers: Secret Wars (Phase 6)
+      - 1030022 # Armor Wars (Phase 6)
+  ### Stand Alone
+  "Blade":
+    sort_title: Marvel-Standalone - Blade
+    tmdb_collection_details:
+      - 735
+  "Daredevil":
+    sort_title: Marvel-Standalone - Daredevil
+    tmdb_movie_details:
+      - 9480 # Daredevil
+      - 9947 # Elektra
+  "The Punisher":
+    sort_title: Marvel-Standalone - The Punisher
+    tmdb_collection_details:
+      - 635362
+    tmdb_movie_details:
+      - 8867 # Punisher
+  "Ghost Rider":
+    sort_title: Marvel-Standalone - Ghost Rider
+    tmdb_collection_details:
+      - 90306
+  "Fantastic Four":
+    sort_title: Marvel-2CFU - Fantastic Four
+    tmdb_collection_details:
+      - 9744 # (2005 & 2007)
+    tmdb_movie_details:
+      - 166424 # Fantastic Four (2015)
+  "Kick-Ass":
+    sort_title: Marvel-Millarworld - Kick-Ass
+    tmdb_collection_details:
+      - 179892
+  "Spider-Verse":
+    sort_title: Marvel-Spiderverse - Spider-Verse
+    tmdb_collection_details:
+      - 573436
+    tmdb_movie_details:
+      - 583055 # Spider-Ham: Caught in a Ham
+  "Deadpool":
+    sort_title: Marvel-XMU - Deadpool
+    tmdb_collection_details:
+      - 448150
+    tmdb_movie_details:
+      - 558144 # Deadpool: No Good Deed
+  "Wolverine":
+    sort_title: Marvel-XMU - Wolverine
+    tmdb_collection_details:
+      - 453993
+  "X-Men":
+    sort_title: Marvel-XMU - X-Men
+    tmdb_collection_details:
+      - 748
+  ## Sony Collections -------------------------------------------------------------------
+  "Sony's Spider-Man Universe":
+    sort_title: Marvel-2 Sony's Spider-Man Universe
+    tmdb_movie_details:
+      - 634492 # Madame Web
+      - 335983 # Venom
+      - 580489 # Venom: Let There Be Carnage
+      - 526896 # Morbius
+      - 912649 # Venom: The Last Dance
+      - 539972 # Kraven the Hunter
+  "Spider-Man":
+    sort_title: Marvel-Raimiverse - Spider-Man
+    tmdb_collection_details:
+      - 556
+  "The Amazing Spider-Man":
+    sort_title: Marvel-Webbverse - The Amazing Spider-Man
+    tmdb_collection_details:
+      - 125574
+  ## DC Collections ----------------------------------------------------------------------
+  "DC Extended Universe":
+    sort_title: DC-1 DC Extended Universe
+    tmdb_movie_details:
+      - 297762 # Wonder Woman
+      - 464052 # Wonder Woman 1984
+      - 49521  # Man of Steel
+      - 209112 # Batman vs Superman
+      - 297761 # Suicide Squad
+      - 495764 # Birds of Prey
+      - 141052 # Justice League
+      - 791373 # Justice League (Snyders Cut)
+      - 297802 # Aquaman
+      - 287947 # Shazam!
+      - 436969 # The Suicide Squad
+      - 436270 # Black Adam
+      - 594767 # Shazam! Fury of the Gods
+      - 298618 # The Flash
+      - 565770 # Blue Beetle
+      - 572802 # Aquaman and the Lost Kingdom
+  ### Stand Alone
+  "Catwoman":
+    sort_title: DC-Standalone - Catwoman
+    tmdb_movie_details:
+      - 314 # Catwoman
+  "Constantine":
+    sort_title: DC-Standalone - Constantine
+    tmdb_collection_details:
+      - 1025281
+  "The Batman":
+    sort_title: DC-Earth 2 - The Batman
+    tmdb_collection_details:
+      - 948485
+  "Batman":
+    sort_title: DC-Earth 89 - Batman
+    tmdb_collection_details:
+      - 120794
+  "Superman":
+    sort_title: DC-Earth 89 - Superman
+    tmdb_collection_details:
+      - 8537
+  "Green Lantern":
+    sort_title: DC-Standalone - Green Lantern
+    tmdb_movie_details:
+      - 44912 # Green Lantern
+  "Joker":
+    sort_title: DC-DC Black - Joker
+    tmdb_collection_details:
+      - 987044
+  "The League of Extraordinary Gentlemen":
+    sort_title: DC-Standalone - The League of Extraordinary Gentlemen
+    tmdb_movie_details:
+      - 8698 # The League of Extraordinary Gentlemen
+  "The Dark Knight":
+    sort_title: DC-Nolanverse - The Dark Knight
+    tmdb_collection_details:
+      - 263
+  "V for Vendetta":
+    sort_title: DC-Standalone - V for Vendetta
+    tmdb_movie_details:
+      - 752 # V for Vendetta
+  "Watchmen":
+    sort_title: DC-Standalone - Watchmen
+    tmdb_movie_details:
+      - 13183 # Watchmen
+  "Jonah Hex":
+    sort_title: DC-Standalone - Jonah Hex
+    tmdb_movie_details:
+      - 20533 #Jonah Hex
+  "Steel":
+    sort_title: DC-Standalone - Steel
+    tmdb_movie_details:
+      - 8854 #Steel
+  "Swamp Thing":
+    sort_title: DC-Standalone - Swamp Thing
+    tmdb_collection_details:
+      - 87228
+  "Batman The Movie":
+    sort_title: DC-Standalone - Batman The Movie
+    tmdb_movie_details:
+      - 2661 #Batman The Movie
+  "Superman and the Mole Men":
+    sort_title: DC-Standalone - Superman and the Mole Men
+    tmdb_movie_details:
+      - 41800 #Superman and the Mole Men
+  ## Children's Collections -------------------------------------------------------------
+  "Disney Animation":
+    sort_title: Disney-3 Disney Animation
+    tmdb_movie_details:
+      - 12230   # 101 Dalmations
+      - 13654   # 101 Dalmations II: Patch's London Adventure
+      - 812     # Aladdin
+      - 15969   # The Return of Jafar
+      - 11238   # Aladdin and the King of Thieves
+      - 689334  # Jasmine's Enchanted Tales
+      - 13465   # The Adventures of Ichabod and Mr Toad
+      - 12092   # Alice in Wonderland
+      - 10112   # The Aristocats
+      - 10865   # Atlantis: The Lost Empire
+      - 8965    # Atlantis: Milo's Return
+      - 3170    # Bambi
+      - 13205   # Bambi 2
+      - 10020   # Beauty and the Beast
+      - 13313   # Beauty and the Beast: Enchanted Christmas
+      - 20235   # Belle's Magical World
+      - 177572  # Big Hero 6
+      - 10957   # The Black Cauldron
+      - 13053   # Bolt
+      - 16604   # Super Rhino
+      - 10009   # Brother Bear
+      - 10010   # Brother Bear 2
+      - 14906   # Saludos Amigos
+      - 9982    # Chicken Little
+      - 11224   # Cinderella
+      - 14128   # Cinderella II: Dreams Come True
+      - 16119   # Cinderella III: A Twist in Time
+      - 10567   # Dinosaur
+      - 10837   # DuckTales: The Movie
+      - 11360   # Dumbo
+      - 11688   # The Emporer's New Groove
+      - 13417   # Kronk's New Groove
+      - 568124  # Encanto
+      - 756     # Fantasia
+      - 49948   # Fantasia 2000
+      - 10948   # The Fox and the Hound
+      - 9948    # The Fox and the Hound 2
+      - 109445  # Frozen
+      - 326359  # Frozen Fever
+      - 330457  # Frozen II
+      - 1024604 # Frozen III
+      - 46929   # Fun and Fancy Free
+      - 15789   # A Goofy Movie
+      - 15653   # An Extremely Goofy Movie
+      - 9994    # The Great Mouse Detective
+      - 11970   # Hercules
+      - 13700   # Home on the Range
+      - 10545   # The Hunchback of Notre Dame
+      - 12448   # The Hunchback of Notre Dame II
+      - 9325    # The Jungle Book
+      - 14873   # The Jungle Book 2
+      - 10340   # The Lady and the Tramp
+      - 18269   # The Lady and the Tramp II: Scamp's Adventure
+      - 8587    # The Lion King
+      - 11430   # The Lion King 1.5
+      - 9732    # The Lion King II: Simba's Pride
+      - 11544   # Lilo & Stich
+      - 20760   # Lilo & Stich 2: Stich Has a Glitch
+      - 15567   # Stich! The Movie
+      - 21316   # Leroy & Stich
+      - 10144   # The Little Mermaid
+      - 10898   # The Little Mermaid II: Return to the Sea
+      - 13676   # The Little Mermaid: Ariel's Beginning
+      - 20343   # Make Mine Music
+      - 1267    # Meet the Robinsons
+      - 13757   # Melody Time
+      - 277834  # Moana
+      - 1241982 # Moana 2
+      - 10674   # Mulan
+      - 12242   # Mulan II
+      - 12233   # Oliver & Company
+      - 10693   # Peter Pan
+      - 16690   # Return to Neverland
+      - 10895   # Pinocchio
+      - 151960  # Planes
+      - 218836  # Planes: Fire & Rescure
+      - 10530   # Pocahontas
+      - 13761   # Pocahontas II:  Journey to the New World
+      - 10198   # The Princess and the Frog
+      - 527774  # Rava and the Last Dragon
+      - 11319   # The Rescuers
+      - 11135   # The Rescuers Down Under
+      - 11886   # Robin Hood
+      - 10882   # Sleeping Beauty
+      - 408     # Snow White and the Seven Dwarves
+      - 877269  # Strange World
+      - 38757   # Tangled
+      - 82881   # Tangled Ever After
+      - 438747  # Tangled Before Ever After
+      - 37135   # Tarzan
+      - 15657   # Tarzan II
+      - 13683   # Tarzan & Jane
+      - 44683   # Tinker Bell and the Great Fairy Rescue
+      - 86130   # Pixie Hollow Games
+      - 75258   # Secret of the Wings
+      - 269437  # Pixie Hollow Bake Off
+      - 175112  # Tinker Bell and the Pirate Fairy
+      - 297270  # Tinker Bell and the Legend of the Neverbeast
+      - 25475   # Tinker Bell and the Lost Treasure
+      - 9016    # Treasure Planet
+      - 51162   # Winnie the Pooh
+      - 250480  # The Many Adventures of Winnie the Pooh
+      - 36540   # Winnie the Pooh and the Honey Tree
+      - 81310   # Winnie the Pooh and the Blustery Day
+      - 72185   # Winnie the Pooh and Tigger Too
+      - 80357   # Winnie the Pooh & Christmas Too
+      - 261339  # Winnie the Pooh: Seasons of Giving
+      - 13706   # Winnie the Pooh: A Very Merry Pooh Year
+      - 16394   # Winnie the Pooh: Springtime with Roo
+      - 14903   # Pooh's Grand Adventure: The Search for Christopher Robin
+      - 278644  # The Book of Pooh: Stories from the Heart
+      - 13682   # Pooh's Heffalump Movie
+      - 14885   # Pooh's Heffalump Halloween Movie
+      - 13691   # Piglet's Big Movie
+      - 15655   # The Tigger Movie
+      - 1022796 # Wish
+      - 826900  # Wreck-It Ralph
+      - 404368  # Ralp Breaks the Internet
+      - 269149  # Zootopia
+      - 1084242 # Zootopia 2
+  "Disney Live-Action":
+    sort_title: Disney-3 Disney Live-Action
+    tmdb_movie_details:
+      - 11674  # 101 Dalmations
+      - 10481  # 102 Dalmations
+      - 337404 # Cruella
+      - 836454 # Cruella 2
+      - 420817 # Aladdin
+      - 12155  # Alice in Wonderland
+      - 241259 # Alive Through the Looking Glass
+      - 321612 # Beauty and the Beast
+      - 150689 # Cinderella
+      - 329996 # Dumbo
+      - 512895 # Lady and the Tramp
+      - 102651 # Maleficent
+      - 420809 # Maleficent: Mistress of Evil
+      - 337401 # Mulan
+      - 420808 # Peter Pan & Wendy
+      - 532639 # Pinocchio
+      - 278927 # The Jungle Book
+      - 420818 # The Lion King
+      - 762509 # Mufasa: The Lion King
+      - 447277 # The Little Mermaid
+      - 420814 # Christopher Robin
+  "Illumination":
+    sort_title: Illumination-4 - Illumination
+    tmdb_movie_details:
+      - 20352   # Despicable Me
+      - 93456   # Despicable Me 2
+      - 324852  # Despicable Me 3
+      - 519182  # Despicable Me 4
+      - 211672  # Minions
+      - 438148  # Minions: The Rise of Gru
+      - 1315772 # Minions 3
+      - 1029119 # Minions & More Vol. 1
+      - 1045644 # Minions & More Vol. 2
+      - 403052  # Mower Minions
+      - 375186  # Minions Jingle Bells
+      - 878357  # Minions & Monsters
+      - 1321909 # The Minion Olympics
+      - 366141  # Cro Minion
+      - 553903  # Yellow is the New Black
+      - 50359   # Hop
+      - 940551  # Migration
+      - 335797  # Sing
+      - 438695  # Sing 2
+      - 360920  # The Grinch
+      - 73723   # The Lorax
+      - 502356  # The Super Mario Bros. Movie
+      - 328111  # The Secret Life of Pets
+      - 412117  # The Secret Life of Pets 2
+      - 1109206 # The Secret Life of Pets 3
+  "Pixar":
+    sort_title: Pixar-5 - Pixar
+    tmdb_movie_details:
+      - 9487    # A Bug's Life
+      - 62177   # Brave
+      - 141423  # The Legend of Mor'du
+      - 920     # Cars
+      - 49013   # Cars 2
+      - 260514  # Cars 3
+      - 354912  # Coco
+      - 449621  # Dante's Lunch
+      - 976573  # Elemental
+      - 12      # Finding Nemo
+      - 127380  # Finding Dory
+      - 150540  # Inside Out
+      - 1022789 # Inside Out 2
+      - 508943  # Luca
+      - 585     # Monsters Inc.
+      - 62211   # Monsters University
+      - 508439  # Onward
+      - 2062    # Ratatouille
+      - 13061   # Your Friend the Rat
+      - 508442  # Soul
+      - 811367  # 22 vs Earth
+      - 105864  # The Good Dinosaur
+      - 9806    # The Incredibles
+      - 260513  # The Incredibles 2
+      - 862     # Toy Story
+      - 863     # Toy Story 2
+      - 10193   # Toy Story 3
+      - 301528  # Toy Story 4
+      - 1084244 # Toy Story 5
+      - 256835  # Toy Story That Time Forgot 
+      - 77887   # Hawaiian Vacation
+      - 82424   # Small Fry
+      - 130925  # Partysaurus Rex
+      - 718789  # Lightyear
+      - 508947  # Turning Red
+      - 14160   # Up
+      - 1076364 # Carl's Date
+      - 24589   # Dug's Special Mission
+      - 10681   # Wall-E
+      - 13413   # Burn-E
+  "Pixar Short Films":
+    sort_title: Pixar-5 - Pixar Short Films
+    tmdb_movie_details:
+      - 13924  # The Adventures of Andre & Wally B.
+      - 13926  # Red's Dream
+      - 13925  # Luxo Jr.
+      - 13927  # Tin Toy
+      - 13928  # Knick Knack
+      - 13929  # Geri's Game
+      - 13930  # For the Birds
+      - 13062  # Boundin'
+      - 13933  # One Man Band
+      - 13060  # Lifted
+      - 13042  # Presto
+      - 24480  # Partly Cloudy
+      - 40619  # Day & Night
+      - 83564  # La Luna
+      - 200481 # The Blue Umbrella
+      - 286192 # Lava
+      - 345637 # Sanjay's Super Team
+      - 399106 # Piper
+      - 433471 # Lou
+      - 514754 # Bao
+  "DreamWorks Animation":
+    sort_title: Dreamworks-6 - DreamWorks Animation
+    tmdb_movie_details:
+      - 431580  # Abominable
+      - 8916    # Antz
+      - 5559    # Bee Movie
+      - 268531  # Captain Underpants: The First Epic Movie
+      - 7443    # Chicken Run
+      - 520758  # Chicken Run: Dawn of the Nugget
+      - 11619   # Flushed Away
+      - 228161  # Home
+      - 10191   # How to Train Your Dragon
+      - 82702   # How to Train Your Dragon 2
+      - 638507  # How to Train Your Dragon: Homecoming 
+      - 166428  # How to Train Your Dragon: The Hidden World
+      - 9837    # The Prince of Egypt
+      - 16366   # Joseph: King of Dreams
+      - 9502    # Kung Fu Panda
+      - 49444   # Kung Fu Panda 2
+      - 140300  # Kung Fu Panda 3
+      - 1011985 # Kung Fu Panda 4
+      - 1298205 # Kung Fu Panda 5
+      - 50393   # Kung Fu Panda Holiday
+      - 15854   # Kung Fu Panda: Secrets of the Furious Five
+      - 81003   # Kung Fu Panda: Secrets of the Masters
+      - 381693  # Kung Fu Panda: Secrets of the Scroll
+      - 456661  # Kung Fu Panda: Panda Paws 
+      - 953     # Madagascar
+      - 10527   # Madagascar: Escape 2 Africa
+      - 80321   # Madagascar 3: Europe's Most Wanted
+      - 270946  # Penguins of Madagascar
+      - 311057  # The Penguins of Madagascar: Operation Penguin Patrol
+      - 275298  # The Penguins of Madagascar: Operation Antarctica
+      - 311201  # The Penguins of Madagascar: Operation Penguin Takeover
+      - 284431  # The Penguins of Madagascar: Operation Search and Rescue
+      - 263463  # The Penguins of Madagascar: Operation Vacation
+      - 306990  # The Penguins of Madagascar: Operation DVD Premiere
+      - 279443  # The Penguins of Madagascar: Operation Blowhole
+      - 311185  # The Penguins of Madagascar: Operation Special Delivery
+      - 378244  # The Penguins of Madagascar: Operation: Get Ducky
+      - 192729  # The Penguins of Madagascar: Operation: Impossible Possible
+      - 268357  # The Penguins of Madagascar: New to the Zoo
+      - 306579  # The Penguins of Madagascar: I Was A Penguin Zombie
+      - 306806  # The Penguins of Madagascar: Happy King Julien Day
+      - 279442  # The Penguins of Madagascar: The All-Nighter Before Xmas
+      - 10258   # The Madagascar Penguins in a Christmas Caper
+      - 38055   # Megamind
+      - 57718   # Megamind: The Button of Doom
+      - 1239251 # Megamind vs. the Doom Syndicate
+      - 82703   # Mr. Peabody & Sherman
+      - 7518    # Over the Hedge
+      - 81188   # Rise of the Guardians
+      - 10555   # Shark Tale
+      - 808     # Shrek
+      - 809     # Shrek 2
+      - 10192   # Shrek Forever After
+      - 810     # Shrek the Third
+      - 421892  # Shrek 5
+      - 417859  # Puss in Boots
+      - 83201   # Puss in Boots: The Three Diablos 
+      - 315162  # Puss in Boots: The Last Wish
+      - 14411   # Sinbad: Legend of the Seven Seas
+      - 9023    # Spirit: Stallion of the Cimarron
+      - 637693  # Spirit Untamed
+      - 629542  # The Bad Guys
+      - 1175942 # The Bad Guys 2
+      - 1329336 # The Bad Guys: Haunted Heist
+      - 1046032 # The Bad Guys: A Very Bad Holiday
+      - 295693  # The Boss Baby
+      - 459151  # The Boss Baby: Family Business
+      - 953654  # The Boss Baby 3
+      - 1045944 # The Boss Baby: Christmas Bonus
+      - 735364  # The Boss Baby: Get That Baby! 
+      - 49519   # The Croods
+      - 529203  # The Croods: A New Age
+      - 10501   # The Road to El Dorado 
+      - 1184918 # The Wild Robot
+      - 1370190 # The Wild Robot
+      - 136799  # Trolls
+      - 901362  # Trolls Band Together
+      - 446893  # Trolls World Tour
+      - 77950   # Turbo
+      - 533     # Wallace & Gromit: The Curse of the Were-Rabbit
+  "Sony Pictures Animation":
+    sort_title: Sony-7 - Sony Pictures Animation
+    tmdb_movie_details:
+      - 51052   # Arthur Christmas
+      - 22794   # Cloudy with a Chance of Meatballs
+      - 109451  # Cloudy with a Chance of Meatballs 2
+      # - 0      # Fixed (Unreleased)
+      - 76492   # Hotel Transylvania
+      - 159824  # Hotel Transylvania 2
+      - 400155  # Hotel Transylvania 3: Summer Vacation
+      - 585083  # Hotel Transylvania: Transformania
+      - 813258  # Monster Pets: A Hotel Transylvania Short
+      - 803796  # K-Pop: Demon Hunters
+      - 7484    # Open Season
+      - 13690   # Open Season 2
+      - 51170   # Open Season 3
+      - 382517  # Open Season: Scared Silly
+      - 137116  # Smurfs: The Lost Village
+      # - 569094 # Spider-Man: Across the Spider-Verse
+      # - 911916 # Spider-Man: Beyond the Spider-Verse
+      # - 324857 # Spider-Man: Into the Spider-Verse
+      - 9408    # Surf's Up
+      - 411840  # Surf's Up 2
+      - 153518  # The Angry Birds Movie
+      - 454640  # The Angry Birds Movie 2
+      - 1300926 # The Angry Birds Movie 3
+      - 378236  # The Emoji Movie
+      - 501929  # The Mitchells vs. The Machines
+      - 72197   # The Pirates! In an Adventure with Scientists!
+      - 550205  # Wish Dragon
+  ## Random Collections ------------------------------------------------------------------
+  "Back to the Future":
+    sort_title: Z99-Back to the Future
+    tmdb_collection_details:
+      - 264
+#  "Beverly Hills Cop":
+#    sort_title: Z99-Beverly Hills Cop
+#    tmdb_collection_details:
+#      - 85861
+  "Bill & Ted's Most Excellent Collection":
+    sort_title: Z99-Bill & Ted's Most Excellent Collection
+    tmdb_collection_details:
+      - 91746
+#  "Chucky":
+#    sort_title: Z99-Chucky
+#    tmdb_collection_details:
+#      - 10455
+#  "Fantastic Beasts":
+#    sort_title: Z99-Fantastic Beasts
+#    tmdb_collection_details:
+#      - 435259
+#  "Fast and Furious":
+#    sort_title: Z99-Fast and Furious
+#    tmdb_collection_details:
+#      - 9485
+#    tmdb_movie_details:
+#      - 384018 # Hobbs & Shaw
+  "Ghostbusters":
+    sort_title: Z99-Ghostbusters
+    tmdb_collection_details:
+      - 2980#
+#  "Harry Potter":
+#    sort_title: Z99-Harry Potter
+#    tmdb_collection_details:
+#      - 1241
+#  "Indiana Jones":
+#    sort_title: Z99-Indiana Jones
+#    tmdb_collection_details:
+#      - 84
+#  "Insidious":
+#    sort_title: Z99-Insidious
+#    tmdb_collection_details:
+#      - 228446
+  "James Bond":
+    sort_title: Z99-James Bond
+    tmdb_collection_details:
+      - 645
+  "John Wick":
+    sort_title: Z99-John Wick
+    tmdb_collection_details:
+      - 404609
+  "Mission Impossible":
+    sort_title: Z99-Mission Impossible
+    tmdb_collection_details:
+      - 87359
+#  "Naked Gun":
+#    sort_title: Z99-Naked Gun
+#    tmdb_collection_details:
+#      - 37139
+#  "Saw":
+#    sort_title: Z99-Saw
+#    tmdb_collection_details:
+#      - 656
+#  "Star Wars":
+#    sort_title: Z99-Star Wars
+#    collection_order: alpha
+#    tmdb_collection_details:
+#      - 10
+#  "Teenage Mutant Ninja Turtles":
+#    sort_title: Z99-Teenage Mutant Ninja Turtles
+#    tmdb_collection_details:
+#      - 1582
+  "The Addams Family":
+    sort_title: The Addams Family
+    tmdb_collection_details:
+      - 11716
+#  "The Bourne Collection":
+#    sort_title: Z99-The Bourne Collection
+#    tmdb_collection_details:
+#      - 31562
+#  "The Cornetto Triology":
+#    sort_title: Z99-The Cornetto Triology
+#    tmdb_movie_details:
+#      - 747    # Shaun of the Dead
+#      - 4638   # Hot Fuzz
+#      - 107985 # The World's End
+  "The Matrix":
+    sort_title: Z99-The Matrix
+    tmdb_collection_details:
+      - 2344
+#  "The Meg":
+#    sort_title: Z99-The Meg
+#    tmdb_collection_details:
+#      - 742536
+#  "The Muppets":
+#    sort_title: Z99-The Muppets
+#    tmdb_movie_details:
+#      - 11176  # The Muppet Movie
+#      - 14900  # The Great Muppet Caper
+#      - 11899  # The Muppets Take Manhattan
+#      - 10437  # The Muppet Christmas Carol
+#      - 10874  # Muppet Treasure Island
+#      - 10208  # Muppets from Space
+#      - 20910  # The Muppets' Wizard of Oz
+#      - 64328  # The Muppets
+#      - 145220 # Muppets Most Wanted
+#      - 826914 # Muppets Haunted Mansion
+#  "The Vengeance Trilogy":
+#    sort_title: Z99-The Vengeance Trilogy
+#    tmdb_movie_details:
+#      - 4689 # Sympathy For Mr Vengeance
+#      - 670  # Oldboy
+#      - 4550 # Lady Vengeance
+#  "Top Gun":
+#    sort_title: Z99-Top Gun
+#    tmdb_collection_details:
+#      - 531330
+#  "Tremors":
+#    sort_title: Z99-Tremors
+#    tmdb_collection_details:
+#      - 91799
+  ## Seasonal Collections ----------------------------------------------------------------
+  ### Halloween 2024
+  #Spooktacular:
+  #  trakt_list_details:
+  #    - https://trakt.tv/users/revenant/lists/spooktacular
+  #  sync_mode: sync
+  #  collection_order: custom
+  #  sort_title: 0-Spooktacular

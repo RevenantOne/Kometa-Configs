@@ -1,0 +1,24 @@
+metadata:
+    WerewolfByNightColour:
+      match:
+        mapping_id: 894205
+        edition: 'Colour'
+      file_poster: '//assets//movies//Werewolf by Night//poster-colour.png'
+    WerewolfByNightBAW:
+      match:
+        mapping_id: 894205
+        edition: 'Black and White'
+      file_poster: '//assets//movies//Werewolf by Night//poster-baw.png'
+    LoganColour:
+      match:
+        mapping_id: 263115
+        edition: 'Colour'
+      file_poster: '//assets//movies//Logan//poster-colour.png'
+    LoganNoir:
+      match:
+        mapping_id: 263115
+        edition: 'Noir'
+      file_poster: '//assets//movies//Logan//poster-noir.png'
+
+# Posters seem to be required to be outside of actual movie dir and in the collection dir
+# ie. 'Logan' not 'Logan (2017)'.

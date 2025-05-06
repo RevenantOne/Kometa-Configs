@@ -1,54 +1,141 @@
 collections:
-  'The Defenders':
+## Marvel Collections ------------------------------------------------------------------
+ "Marvel Heroes":
+   sort_title: Marvel-Heroes
+   tmdb_show_details:
+     - 1403  # Agents of S.H.I.E.L.D.
+     - 61550 # Agent Carter
+     - 68716 # Inhumans
+ "Marvel Defenders":
+   sort_title: Marvel-Defenders
+   tmdb_show_details:
+     - 61889 # Daredevil
+     - 38472 # Jessica Jones
+     - 62126 # Luke Cage
+     - 62127 # Iron First
+     - 62285 # The Defenders
+     - 67178 # The Punisher
+ "Marvel Young Adults":
+   sort_title: Marvel-Young Adults
+   tmdb_show_details:
+     - 67466 # Runaways
+     - 66190 # Cloak & Dagger
+ "Marvel Fox":
+   sort_title: Marvel-Fox
+   tmdb_show_details:
+     - 69629 # The Gifted (2017)
+     - 67195 # Legion (2017)
+ "Marvel Adventure into Fear":
+   sort_title: Marvel-Adventure into Fear
+   tmdb_show_details:
+     - 88987 # Helstrom
+ "Marvel Studios":
+    sort_title: Marvel-Marvel Studios
     tmdb_show_details:
-      - 62285 # The Defenders
-      - 38472 # Jessica Jones
-      - 62126 # Luke Cage
-      - 61889 # Daredevil
-      - 62127 # Iron Fist
-    sort_title: 'Marvel: The Defenders'
-  'Marvel':
+     - 85271  # WandaVision (Phase 4)
+     - 88396  # The Falcon and the Winter Soldier (Phase 4)
+     - 84958  # Loki (Phase 4)
+     - 91363  # What If...? (Phase 4)
+     - 88329  # Hawkeye (Phase 4)
+     - 92749  # Moon Knight (Phase 4)
+     - 92782  # Ms. Marvel (Phase 4)
+     - 92783  # She Hulk: Attorney at Law (Phase 4)
+     - 114472 # Secret Invasion (Phase 5)
+     - 122226 # Echo (Phase 5)
+     - 138501 # Agatha All Along (Phase 5)
+     - 138503 # Your Friendly Neighborhood Spider-Man (Phase 5)
+     - 202555 # Daredevil: Born Again (Phase 5)
+     - 114471 # Ironheart (Phase 5)
+     - 241388 # Eyes of Wakanda (Phase 6)
+     - 138505 # Marvel Zombies (Phase 6)
+     - 198178 # Wonder Man (Phase 6)
+     - 213375 # Vision Quest (Phase 6)
+ "Marvel Anime":
+   sort_title: Marvel-Anime
+   tmdb_show_details:
+     - 45418 # Iron Man (2010)
+     - 38247 # Wolverine (2011)
+     - 43146 # X-Men (2011)
+     - 62798 # Blade (2011)
+ "Marvel Animated":
+    sort_title: Marvel-Animated
     tmdb_show_details:
-      - 62285  # The Defenders
-      - 38472  # Jessica Jones
-      - 62126  # Luke Cage
-      - 61889  # Daredevil
-      - 62127  # Iron Fist
-      - 69629  # The Gifted
-      - 88329  # Hawkeye
-      - 88987  # Helstrom
-      - 88396  # The Falcon and the Winter Soldier
-      - 67195  # Legion
-      - 84958  # Loki
-      - 66190  # Cloak & Dagger
-      - 68716  # Inhumans
-      - 67178  # The Punisher
-      - 92749  # Moon Knight
-      - 92782  # Ms Marvel
-      - 92783  # She Hulk
-      - 85271  # WandaVision
-      - 91363  # What If...?
-      - 61550  # Agent Carter
-      - 4574   # X-Men: Animated Series
-      - 138502 # X-Men '97
-      - 122226 # Echo
-      - 114695 # Legends
-      - 133903 # Hit Monkey
-      - 114472 # Secret Invasion
-      - 888    # Spider-Man: Animated Series
-      - 127635 # Spidey and His Amazing Friends
-      - 92788  # Moon Girl and Devil Dinosaur
-    tvdb_show_details:
-      - 393201 # I Am Groot
-    sort_title: 'Marvel'
-  'Buffyverse':
-    tmdb_show_details:
-      - 95    # Buffy
-      - 2426  # Angel
-      - 65316 # Buffy: Animated Series
-    sort_title: 'Buffyverse'
-  'Immortal Universe':
-    tmdb_show_details:
-      - 128098 # Interview with the Vampire
-      - 207863 # Mayfair Witches
-    sort_title: 'Immortal Universe'
+      # Ant-Man ------------------------------------------------------------
+     - 73919  # Marvel's Ant-Man (2017)
+     - 111312 # Marvel's M.O.D.O.K. (2021)
+      # Big Hero 6 ---------------------------------------------------------
+     - 68665  # Big Hero 6: The Series (2017)
+     - 114466 # Baymax!
+      # Battleworld --------------------------------------------------------
+     - 113903 # Marvel Battleworld: Mystery of the Thanostones
+      # - 136455 # Marvel Battleworld: Treachery at Twilight
+      # Same show, different seasons on Sonarr
+      # Fantastic Four -----------------------------------------------------
+     - 1651   # Fantastic Four (1967)
+     - 2373   # The Fantastic Four (1978)
+     - 2271   # Fred and Barney Meet the Thing (1979)
+     - 2901   # Fantastic Four (1994)
+     - 132    # Fantastic Four: World's Greatest Heroes (2006)
+      # Iron Man -----------------------------------------------------------
+     - 3097   # Iron Man (1994)
+     - 7330   # Iron Man: Armored Adventures (2009)
+     - 77362  # Iron Man: Extremis (2010)
+     - 274388 # Marvel's Iron Man and His Awesome Friends (2025)
+      # Silver Surfer ------------------------------------------------------
+     - 1130   # Silver Surfer (1998)
+      # Spider-Man ---------------------------------------------------------
+     - 1482   # Spider-Man: The Original Animated Series (1967)
+     - 4552   # The Amazing Spider-Man (1978)
+     - 4784   # Spider-Woman (1979)
+     - 1269   # Spider-Man and His Amazing Friends (1981)
+     - 3973   # Spider-Man (1981)
+     - 888    # Spider-Man: The Animated Series (1994)
+     - 10079  # Spider-Man Unlimited (1999)
+     - 1664   # Spider-Man: The New Animated Series (2003)
+     - 3854   # The Spectacular Spider-Man (2008)
+     - 77269  # Marvel Knights: Spider-Woman - Agent of S.W.O.R.D. (2009)
+     - 127635 # Spidey and His Amazing Friends (2021)
+     - 72705  # Marvel's Spider-Man (2017)
+     - 34391  # Ultimate Spider-Man (2012)
+      # The Avengers -------------------------------------------------------
+     - 2164   # The Marvel Super Heroes (1966)
+     - 1300   # The Avengers: United They Stand (1999)
+     - 21781  # The Super Hero Squad Show (2009)
+     - 33623  # The Avengers: Earth's Mightiest Heroes (2010)
+     - 59427  # Avenger's Assemble (2013)
+     - 70801  # Marvel Disk Wars: The Avengers (2014)
+     - 91278  # Marvel's Future Avengers (2017)
+      # Guardians of the Galaxy --------------------------------------------
+     - 63181  # Guardians of the Galaxy (2015)
+     - 70784  # Rocket & Groot (2017)
+     - 232125 # I Am Groot (2022)
+      # X-Men --------------------------------------------------------------
+     - 225656 # X-Men: Pryde of the X-Men (1989)
+     - 4574   # X-Men: The Animated Series (1992)
+     - 668    # X-Men: Evolution (2000)
+     - 6549   # Wolverine and the X-Men (2009)
+     - 117657 # Astonishing X-Men (2009)
+     - 282392 # X-Men: The Seminal Moments (2019)
+     - 138502 # X-Men '97 (2024)
+      # The Hulk -----------------------------------------------------------
+     - 11328  # The Incredible Hulk (1982)
+     - 6332   # The Incredible Hulk (1996)
+     - 40044  # Hulk and the Agents of S.M.A.S.H. (2013)
+      # Other --------------------------------------------------------------
+     - 57083  # Marvel Mash-Up (2012)
+     - 93508  # Marvel Super Hero Adventures (2017)
+     - 83043  # Marvel Rising: Initiation (2018)
+     - 133903 # Marvel's Hit-Monkey (2021)
+     - 92788  # Marvel's Moon Girl and Devil Dinosaur (2023)
+ "Marvel LEGO": # Are movies no tv shows
+   sort_title: Marvel-LEGO
+   tmdb_show_details:
+     - 62476  # LEGO Marvel Super Heroes: Maximum Overload (2013)
+     - 103212 # LEGO Marvel Super Heroes: Guardians of the Galaxy - The Thanos Threat (2017)
+     - 103213 # LEGO Marvel Super Heroes: Black Panther - Trouble in Wakanda (2018)
+     - 112851 # LEGO Marvel Avengers: Climate Conundrum (2020)
+ "Marvel Legacy":
+   sort_title: Marvel-Legacy
+   tmdb_show_details:
+     - 648  # The Incredible Hulk (1978)
+     - 4552 # The Amazing Spider-Man (1977)

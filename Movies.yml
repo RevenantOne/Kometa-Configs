@@ -126,6 +126,36 @@ collections:
     sort_title: Marvel-XMU - X-Men
     tmdb_collection_details:
       - 748
+  "Dr. Strange":
+    sort_title: Marvel-Dr. Strange
+    tmdb_movie_details:
+      - 50468 # Dr. Strange (1978)
+  "Marvel LEGO":
+    sort_title: Marvel-Animated
+    tmdb_movie_details:
+      - 763861  # LEGO Marvel Super Heroes: Maximum Overload (2013)
+      - 368304  # LEGO Marvel Super Heroes: Avengers Reassembled! (2015)
+      - 509080  # LEGO Marvel Super Heroes: Guardians of the Galaxy - The Thanos Threat (2017)
+      - 528222  # LEGO Marvel Super Heroes: Black Panther - Trouble in Wakanda (2018)
+      - 622230  # LEGO Marvel Spider-Man: Vexed by Venom (2019)
+      - 899249  # LEGO Marvel Avengers: Loki in Training (2021)
+      - 940543  # LEGO Marvel Avengers: Time Twisted (2022)
+      - 1154598 # LEGO Marvel Avengers: Code Red (2023)
+      - 1359227 # LEGO Marvel Avengers: Mission Demolition (2024)
+  "Marvel One-Shots":
+    sort_title: Marvel-One-Shots
+    tmdb_movie_details:
+      - 76122  # Marvel One-Shots: The Consultant
+      - 76535  # Marvel One-Shots: A Funny Thing Happened on the Way to Thors Hammer
+      - 119569 # Marvel One-Shots: Item 47
+      - 211387 # Marvel One-Shots: Agent Carter
+      - 253980 # Marvel One-Shots: All Hail the King
+  "Team Thor":
+    sort_title: Marvel-One-Shots
+    tmdb_movie_details:
+      - 413279 # Team Thor
+      - 441829 # Team Thor - Part 2
+      - 505945 # Team Darryl
   ## Sony Collections -------------------------------------------------------------------
   "Sony's Spider-Man Universe":
     sort_title: Marvel-2 Sony's Spider-Man Universe
@@ -139,11 +169,11 @@ collections:
   "Spider-Man":
     sort_title: Marvel-Raimiverse - Spider-Man
     tmdb_collection_details:
-      - 556
+      - 556 # Spider-Man (Maguire)
   "The Amazing Spider-Man":
     sort_title: Marvel-Webbverse - The Amazing Spider-Man
     tmdb_collection_details:
-      - 125574
+      - 125574 # The Amazing Spider-Man (Garfield)
   ## DC Collections ----------------------------------------------------------------------
   "DC Extended Universe":
     sort_title: DC-1 DC Extended Universe
@@ -221,7 +251,7 @@ collections:
     sort_title: DC-Standalone - Swamp Thing
     tmdb_collection_details:
       - 87228
-  "Batman The Movie":
+  "Batman: The Movie":
     sort_title: DC-Standalone - Batman The Movie
     tmdb_movie_details:
       - 2661 #Batman The Movie
@@ -497,7 +527,7 @@ collections:
       - 15854   # Kung Fu Panda: Secrets of the Furious Five
       - 81003   # Kung Fu Panda: Secrets of the Masters
       - 381693  # Kung Fu Panda: Secrets of the Scroll
-      # - 456661  # Kung Fu Panda: Panda Paws
+      # - 456661  # Kung Fu Panda: Panda Paws 
       - 953     # Madagascar
       - 10527   # Madagascar: Escape 2 Africa
       - 80321   # Madagascar 3: Europe's Most Wanted
@@ -565,12 +595,15 @@ collections:
       - 159824  # Hotel Transylvania 2
       - 400155  # Hotel Transylvania 3: Summer Vacation
       - 585083  # Hotel Transylvania: Transformania
+      - 459159  # Hotel Transyvania: Puppy!
       - 813258  # Monster Pets: A Hotel Transylvania Short
       - 803796  # K-Pop: Demon Hunters
       - 7484    # Open Season
       - 13690   # Open Season 2
       - 51170   # Open Season 3
       - 382517  # Open Season: Scared Silly
+      - 381719  # Peter Rabbit
+      - 522478  # Peter Rabbit 2: The Runaway
       - 137116  # Smurfs: The Lost Village
       # - 569094 # Spider-Man: Across the Spider-Verse
       # - 911916 # Spider-Man: Beyond the Spider-Verse
@@ -583,50 +616,52 @@ collections:
       - 378236  # The Emoji Movie
       - 501929  # The Mitchells vs. The Machines
       - 72197   # The Pirates! In an Adventure with Scientists!
+      - 355547  # The Star
+      - 449406  # Vivo
       - 550205  # Wish Dragon
   ## Random Collections ------------------------------------------------------------------
   "Back to the Future":
     sort_title: Z99-Back to the Future
     tmdb_collection_details:
       - 264
-#  "Beverly Hills Cop":
-#    sort_title: Z99-Beverly Hills Cop
-#    tmdb_collection_details:
-#      - 85861
+  "Beverly Hills Cop":
+    sort_title: Z99-Beverly Hills Cop
+    tmdb_collection_details:
+      - 85861
   "Bill & Ted's Most Excellent Collection":
     sort_title: Z99-Bill & Ted's Most Excellent Collection
     tmdb_collection_details:
       - 91746
-#  "Chucky":
-#    sort_title: Z99-Chucky
-#    tmdb_collection_details:
-#      - 10455
-#  "Fantastic Beasts":
-#    sort_title: Z99-Fantastic Beasts
-#    tmdb_collection_details:
-#      - 435259
-#  "Fast and Furious":
-#    sort_title: Z99-Fast and Furious
-#    tmdb_collection_details:
-#      - 9485
-#    tmdb_movie_details:
-#      - 384018 # Hobbs & Shaw
+  "Chucky":
+    sort_title: Z99-Chucky
+    tmdb_collection_details:
+      - 10455
+  "Fantastic Beasts":
+    sort_title: Z99-Fantastic Beasts
+    tmdb_collection_details:
+      - 435259
+  "Fast and Furious":
+    sort_title: Z99-Fast and Furious
+    tmdb_collection_details:
+      - 9485
+    tmdb_movie_details:
+      - 384018 # Hobbs & Shaw
   "Ghostbusters":
     sort_title: Z99-Ghostbusters
     tmdb_collection_details:
-      - 2980#
-#  "Harry Potter":
-#    sort_title: Z99-Harry Potter
-#    tmdb_collection_details:
-#      - 1241
-#  "Indiana Jones":
-#    sort_title: Z99-Indiana Jones
-#    tmdb_collection_details:
-#      - 84
-#  "Insidious":
-#    sort_title: Z99-Insidious
-#    tmdb_collection_details:
-#      - 228446
+      - 2980
+  "Harry Potter":
+    sort_title: Z99-Harry Potter
+    tmdb_collection_details:
+      - 1241
+  "Indiana Jones":
+    sort_title: Z99-Indiana Jones
+    tmdb_collection_details:
+      - 84
+  "Insidious":
+    sort_title: Z99-Insidious
+    tmdb_collection_details:
+      - 228446
   "James Bond":
     sort_title: Z99-James Bond
     tmdb_collection_details:
@@ -639,72 +674,72 @@ collections:
     sort_title: Z99-Mission Impossible
     tmdb_collection_details:
       - 87359
-#  "Naked Gun":
-#    sort_title: Z99-Naked Gun
-#    tmdb_collection_details:
-#      - 37139
-#  "Saw":
-#    sort_title: Z99-Saw
-#    tmdb_collection_details:
-#      - 656
-#  "Star Wars":
-#    sort_title: Z99-Star Wars
-#    collection_order: alpha
-#    tmdb_collection_details:
-#      - 10
-#  "Teenage Mutant Ninja Turtles":
-#    sort_title: Z99-Teenage Mutant Ninja Turtles
-#    tmdb_collection_details:
-#      - 1582
+  "Naked Gun":
+    sort_title: Z99-Naked Gun
+    tmdb_collection_details:
+      - 37139
+  "Saw":
+    sort_title: Z99-Saw
+    tmdb_collection_details:
+      - 656
+  "Star Wars":
+    sort_title: Z99-Star Wars
+    collection_order: alpha
+    tmdb_collection_details:
+      - 10
+  "Teenage Mutant Ninja Turtles":
+    sort_title: Z99-Teenage Mutant Ninja Turtles
+    tmdb_collection_details:
+      - 1582
   "The Addams Family":
     sort_title: The Addams Family
     tmdb_collection_details:
       - 11716
-#  "The Bourne Collection":
-#    sort_title: Z99-The Bourne Collection
-#    tmdb_collection_details:
-#      - 31562
-#  "The Cornetto Triology":
-#    sort_title: Z99-The Cornetto Triology
-#    tmdb_movie_details:
-#      - 747    # Shaun of the Dead
-#      - 4638   # Hot Fuzz
-#      - 107985 # The World's End
+  "The Bourne Collection":
+    sort_title: Z99-The Bourne Collection
+    tmdb_collection_details:
+      - 31562
+  "The Cornetto Triology":
+    sort_title: Z99-The Cornetto Triology
+    tmdb_movie_details:
+      - 747    # Shaun of the Dead
+      - 4638   # Hot Fuzz
+      - 107985 # The World's End
   "The Matrix":
     sort_title: Z99-The Matrix
     tmdb_collection_details:
       - 2344
-#  "The Meg":
-#    sort_title: Z99-The Meg
-#    tmdb_collection_details:
-#      - 742536
-#  "The Muppets":
-#    sort_title: Z99-The Muppets
-#    tmdb_movie_details:
-#      - 11176  # The Muppet Movie
-#      - 14900  # The Great Muppet Caper
-#      - 11899  # The Muppets Take Manhattan
-#      - 10437  # The Muppet Christmas Carol
-#      - 10874  # Muppet Treasure Island
-#      - 10208  # Muppets from Space
-#      - 20910  # The Muppets' Wizard of Oz
-#      - 64328  # The Muppets
-#      - 145220 # Muppets Most Wanted
-#      - 826914 # Muppets Haunted Mansion
-#  "The Vengeance Trilogy":
-#    sort_title: Z99-The Vengeance Trilogy
-#    tmdb_movie_details:
-#      - 4689 # Sympathy For Mr Vengeance
-#      - 670  # Oldboy
-#      - 4550 # Lady Vengeance
-#  "Top Gun":
-#    sort_title: Z99-Top Gun
-#    tmdb_collection_details:
-#      - 531330
-#  "Tremors":
-#    sort_title: Z99-Tremors
-#    tmdb_collection_details:
-#      - 91799
+  "The Meg":
+    sort_title: Z99-The Meg
+    tmdb_collection_details:
+      - 742536
+  "The Muppets":
+    sort_title: Z99-The Muppets
+    tmdb_movie_details:
+      - 11176  # The Muppet Movie
+      - 14900  # The Great Muppet Caper
+      - 11899  # The Muppets Take Manhattan
+      - 10437  # The Muppet Christmas Carol
+      - 10874  # Muppet Treasure Island
+      - 10208  # Muppets from Space
+      - 20910  # The Muppets' Wizard of Oz
+      - 64328  # The Muppets
+      - 145220 # Muppets Most Wanted
+      - 826914 # Muppets Haunted Mansion
+  "The Vengeance Trilogy":
+    sort_title: Z99-The Vengeance Trilogy
+    tmdb_movie_details:
+      - 4689 # Sympathy For Mr Vengeance
+      - 670  # Oldboy
+      - 4550 # Lady Vengeance
+  "Top Gun":
+    sort_title: Z99-Top Gun
+    tmdb_collection_details:
+      - 531330
+  "Tremors":
+    sort_title: Z99-Tremors
+    tmdb_collection_details:
+      - 91799
   ## Seasonal Collections ----------------------------------------------------------------
   ### Halloween 2024
   #Spooktacular:

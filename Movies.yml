@@ -1,35 +1,35 @@
 collections:
   ## Dynamic Collections -----------------------------------------------------------------
-  "Trending Movies":
-    trakt_chart:
-      chart: trending
-      limit: 10
-    collection_order: custom
-    sync_mode: sync
-    sort_title: 0.1-Trending
-  "Popular Movies":
-    trakt_chart:
-      chart: popular
-      limit: 10
-    collection_order: custom
-    sync_mode: sync
-    sort_title: 0.2-Popular
-  "Trending Horror Movies":
-    trakt_chart:
-      chart: trending
-      limit: 10
-      genres: horror
-    collection_order: custom
-    sync_mode: sync
-    sort_title: 0.3-Trending_Horror
-  "Trending Childrens Movies":
-    trakt_chart:
-      chart: trending
-      limit: 10
-      certifications: pg
-    collection_order: custom
-    sync_mode: sync
-    sort_title: 0.4_Trending_Childrens_Movies
+#  "Trending Movies":
+#    trakt_chart:
+#      chart: trending
+#      limit: 10
+#    collection_order: custom
+#    sync_mode: sync
+#    sort_title: 0.1-Trending
+#  "Popular Movies":
+#    trakt_chart:
+#      chart: popular
+#      limit: 10
+#    collection_order: custom
+#    sync_mode: sync
+#    sort_title: 0.2-Popular
+#  "Trending Horror Movies":
+#    trakt_chart:
+#      chart: trending
+#      limit: 10
+#      genres: horror
+#    collection_order: custom
+#    sync_mode: sync
+#    sort_title: 0.3-Trending_Horror
+#  "Trending Childrens Movies":
+#    trakt_chart:
+#      chart: trending
+#      limit: 10
+#      certifications: pg
+#    collection_order: custom
+#    sync_mode: sync
+#    sort_title: 0.4_Trending_Childrens_Movies
   ## Marvel Collections ------------------------------------------------------------------
   "Marvel Cinematic Universe":
     sort_title: Marvel-1 Marvel Cinematic Universe
@@ -619,53 +619,131 @@ collections:
       - 355547  # The Star
       - 449406  # Vivo
       - 550205  # Wish Dragon
+  "Blue Sky Studios":
+    sort_title: BlueSkyStudios-8 - Blue Sky Studios
+    tmdb_movie_details:
+      - 425    # Ice Age (2002)
+      - 9928   # Robots (2005)
+      - 950    # Ice Age: The Meltdown (2006)
+      - 12222  # Dr Seuss' Horton Hears a Who! (2008)
+      - 8355   # Ice Age: Dawn of the Dinosaurs (2009)
+      - 46195  # Rio (2011)
+      - 57800  # Ice Age: Continental Drift (2012)
+      - 116711 # Epic (2013)
+      - 172385 # Rio 2 (2014)
+      - 227973 # The Peanuts Movie (2015)
+      - 278154 # Ice Age: Collision Course (2016)
+      - 364689 # Ferdinand (2017)
+      - 431693 # Spies in Disguise (2019)
+      - 961323 # Nimona (2023)
+  "Nickelodeon":
+    sort_title: Nickelodeon-9 - Nickelodeon
+    tmdb_movie_details:
+      - 38223  # Harriet the Spy (1996)
+      - 14817  # Good Burger (1997)
+#      - 15489  # Snow Day (2000)
+#      - 15028  # Clockstoppers (2002)
+      - 11774  # Lemony Snicket's A Series of Unfortunate Events (2004)
+#      - 14358  # Mad Hot Ballroom (2005)
+#      - 13499  # Yours, Mine & Ours (2005)
+      - 9353   # Nacho Libre (2006)
+      - 9986   # Charlotte's Web (2006)
+      - 8204   # The Spiderwick Chronicles (2008)
+      - 12689  # Angus. Thongs and Perfect Snogging (2008)
+#      - 15189  # Hotel for Dogs (2009)
+#      - 19724  # Imagine That (2009)
+      - 10196  # The Last Airbender (2010)
+#      - 82679  # Fun Size (2012)
+      - 262841  # Monster Trucks (2017)
+      - 499701  # Dora and the Lost City of Gold (2019)
+      - 554241  # Playing with Fire (2019)
+#      - 798293  # The J Team (2021)
+#      - 879513  # Fantasy Football (2022)
+#      - 1073170 # Zoey 102 (2023)
+      - 1101582 # Good Burger 2 (2023)
+   # --- Unreleased
+      - 1208798 # Good Burger 3 (?)
+  "Nickelodeon Animation":
+    sort_title: Nickelodeon-9 - Nickelodeon Animation
+    tmdb_movie_details:
+      - 14444   # The Rugrats Movie (1998)
+      - 16340   # Rugrats in Paris: The Movie (2000)
+      - 2129    # Jimmy Neutron: Boy Genius (2001)
+      - 17710   # Hey Arnold!: The Movie (2002)
+      - 14317   # The Wild Thornberrys Movie (2002)
+      - 20694   # Rugrats Go Wild (2003)
+      - 11836   # The SpongeBob SquarePants Movie (2004)
+      - 9907    # Barnyard (2006)
+      - 44896   # Rango (2011)
+      - 17578   # The Adventures of Tintin (2011)
+      - 98566   # Teenage Mutant Ninja Turtles (2014)
+      - 228165  # The SpongeBob Movie: Sponge Out of Water (2015)
+      - 308531  # Teenage Mutant Ninja Turtles: Out of the Shadows (2016)
+      - 439058  # Hey Arnold!: The Jungle Movie (2018)
+      - 400157  # Wonder Park (2019)
+      - 400160  # The SpongeBob Movie: Sponge on the Run (2020)
+      - 675445  # Paw Patrol: The Movie (2021)
+      - 410113  # The Loud House Movie (2021)
+      - 366672  # Paws of Fury: The Legend of Hank (2022)
+      - 765172  # Rise of the Teenage Mutant Ninja Turtles: The Movie (2022)
+      - 939210  # Blue's Big City Adventure (2022)                                                                                                                                                                                                - 614930  # Teenage Mutant Ninja Turtles: Mutant Mayhem (2023)
+      - 893723  # Paw Patrol: The Mighty Movie (2023)
+      - 1216512 # The Casagrandes Movie (2024)
+      - 1280768 # No Time to Spy: A Loud House Movie (2024)
+      - 831815  # Saving Bikini Bottom: The Sandy Cheeks Movie (2024)
+      - 1104845 # Plankton: The Movie (2025)
+      # --- Unreleased
+      - 991494  # The SpongeBob Movie: Search for SquarePants (2025)
+      - 1185806 # Paw Patrol: The Dino Movie (2026)
+      - 980431  # The Legend of Aang: The Last Airbender (2026)
+      - 1156621 # Teenage Mutant Ninja Turtles: Mutant Mayhem 2 (2027)
   ## Random Collections ------------------------------------------------------------------
   "Back to the Future":
     sort_title: Z99-Back to the Future
     tmdb_collection_details:
       - 264
-  "Beverly Hills Cop":
-    sort_title: Z99-Beverly Hills Cop
-    tmdb_collection_details:
-      - 85861
+ # "Beverly Hills Cop":
+ #   sort_title: Z99-Beverly Hills Cop
+ #   tmdb_collection_details:
+ #     - 85861
   "Bill & Ted's Most Excellent Collection":
     sort_title: Z99-Bill & Ted's Most Excellent Collection
     tmdb_collection_details:
       - 91746
-  "Chucky":
-    sort_title: Z99-Chucky
-    tmdb_collection_details:
-      - 10455
-  "Fantastic Beasts":
-    sort_title: Z99-Fantastic Beasts
-    tmdb_collection_details:
-      - 435259
-  "Fast and Furious":
-    sort_title: Z99-Fast and Furious
-    tmdb_collection_details:
-      - 9485
-    tmdb_movie_details:
-      - 384018 # Hobbs & Shaw
+ # "Chucky":
+ #   sort_title: Z99-Chucky
+ #   tmdb_collection_details:
+ #     - 10455
+ # "Fantastic Beasts":
+ #   sort_title: Z99-Fantastic Beasts
+ #   tmdb_collection_details:
+ #     - 435259
+ # "Fast and Furious":
+ #   sort_title: Z99-Fast and Furious
+ #   tmdb_collection_details:
+ #     - 9485
+ #   tmdb_movie_details:
+ #     - 384018 # Hobbs & Shaw
   "Ghostbusters":
     sort_title: Z99-Ghostbusters
     tmdb_collection_details:
       - 2980
-  "Harry Potter":
-    sort_title: Z99-Harry Potter
-    tmdb_collection_details:
-      - 1241
-  "Indiana Jones":
-    sort_title: Z99-Indiana Jones
-    tmdb_collection_details:
-      - 84
-  "Insidious":
-    sort_title: Z99-Insidious
-    tmdb_collection_details:
-      - 228446
-  "James Bond":
-    sort_title: Z99-James Bond
-    tmdb_collection_details:
-      - 645
+ # "Harry Potter":
+ #   sort_title: Z99-Harry Potter
+ #   tmdb_collection_details:
+ #     - 1241
+ # "Indiana Jones":
+ #   sort_title: Z99-Indiana Jones
+ #   tmdb_collection_details:
+ #     - 84
+ # "Insidious":
+ #   sort_title: Z99-Insidious
+ #   tmdb_collection_details:
+ #     - 228446
+ # "James Bond":
+ #   sort_title: Z99-James Bond
+ #   tmdb_collection_details:
+ #     - 645
   "John Wick":
     sort_title: Z99-John Wick
     tmdb_collection_details:
@@ -674,72 +752,72 @@ collections:
     sort_title: Z99-Mission Impossible
     tmdb_collection_details:
       - 87359
-  "Naked Gun":
-    sort_title: Z99-Naked Gun
-    tmdb_collection_details:
-      - 37139
-  "Saw":
-    sort_title: Z99-Saw
-    tmdb_collection_details:
-      - 656
-  "Star Wars":
-    sort_title: Z99-Star Wars
-    collection_order: alpha
-    tmdb_collection_details:
-      - 10
-  "Teenage Mutant Ninja Turtles":
-    sort_title: Z99-Teenage Mutant Ninja Turtles
-    tmdb_collection_details:
-      - 1582
+ # "Naked Gun":
+ #   sort_title: Z99-Naked Gun
+ #   tmdb_collection_details:
+ #     - 37139
+ # "Saw":
+ #   sort_title: Z99-Saw
+ #   tmdb_collection_details:
+ #     - 656
+ # "Star Wars":
+ #   sort_title: Z99-Star Wars
+ #   collection_order: alpha
+ #   tmdb_collection_details:
+ #     - 10
+ # "Teenage Mutant Ninja Turtles":
+ #   sort_title: Z99-Teenage Mutant Ninja Turtles
+ #   tmdb_collection_details:
+ #     - 1582
   "The Addams Family":
     sort_title: The Addams Family
     tmdb_collection_details:
       - 11716
-  "The Bourne Collection":
-    sort_title: Z99-The Bourne Collection
-    tmdb_collection_details:
-      - 31562
-  "The Cornetto Triology":
-    sort_title: Z99-The Cornetto Triology
-    tmdb_movie_details:
-      - 747    # Shaun of the Dead
-      - 4638   # Hot Fuzz
-      - 107985 # The World's End
+ # "The Bourne Collection":
+ #   sort_title: Z99-The Bourne Collection
+ #   tmdb_collection_details:
+ #     - 31562
+ # "The Cornetto Triology":
+ #   sort_title: Z99-The Cornetto Triology
+ #   tmdb_movie_details:
+ #     - 747    # Shaun of the Dead
+ #     - 4638   # Hot Fuzz
+ #     - 107985 # The World's End
   "The Matrix":
     sort_title: Z99-The Matrix
     tmdb_collection_details:
       - 2344
-  "The Meg":
-    sort_title: Z99-The Meg
-    tmdb_collection_details:
-      - 742536
-  "The Muppets":
-    sort_title: Z99-The Muppets
-    tmdb_movie_details:
-      - 11176  # The Muppet Movie
-      - 14900  # The Great Muppet Caper
-      - 11899  # The Muppets Take Manhattan
-      - 10437  # The Muppet Christmas Carol
-      - 10874  # Muppet Treasure Island
-      - 10208  # Muppets from Space
-      - 20910  # The Muppets' Wizard of Oz
-      - 64328  # The Muppets
-      - 145220 # Muppets Most Wanted
-      - 826914 # Muppets Haunted Mansion
-  "The Vengeance Trilogy":
-    sort_title: Z99-The Vengeance Trilogy
-    tmdb_movie_details:
-      - 4689 # Sympathy For Mr Vengeance
-      - 670  # Oldboy
-      - 4550 # Lady Vengeance
-  "Top Gun":
-    sort_title: Z99-Top Gun
-    tmdb_collection_details:
-      - 531330
-  "Tremors":
-    sort_title: Z99-Tremors
-    tmdb_collection_details:
-      - 91799
+ # "The Meg":
+ #   sort_title: Z99-The Meg
+ #   tmdb_collection_details:
+ #     - 742536
+ # "The Muppets":
+ #   sort_title: Z99-The Muppets
+ #   tmdb_movie_details:
+ #     - 11176  # The Muppet Movie
+ #     - 14900  # The Great Muppet Caper
+ #     - 11899  # The Muppets Take Manhattan
+ #     - 10437  # The Muppet Christmas Carol
+ #     - 10874  # Muppet Treasure Island
+ #     - 10208  # Muppets from Space
+ #     - 20910  # The Muppets' Wizard of Oz
+ #     - 64328  # The Muppets
+ #     - 145220 # Muppets Most Wanted
+ #     - 826914 # Muppets Haunted Mansion
+ # "The Vengeance Trilogy":
+ #   sort_title: Z99-The Vengeance Trilogy
+ #   tmdb_movie_details:
+ #     - 4689 # Sympathy For Mr Vengeance
+ #     - 670  # Oldboy
+ #     - 4550 # Lady Vengeance
+ # "Top Gun":
+ #   sort_title: Z99-Top Gun
+ #   tmdb_collection_details:
+ #     - 531330
+ # "Tremors":
+ #   sort_title: Z99-Tremors
+ #   tmdb_collection_details:
+ #     - 91799
   ## Seasonal Collections ----------------------------------------------------------------
   ### Halloween 2024
   #Spooktacular:

@@ -129,11 +129,13 @@ collections:
      - 92788  # Marvel's Moon Girl and Devil Dinosaur (2023)
  "Marvel LEGO": # Are movies no tv shows
    sort_title: Marvel-LEGO
-   tmdb_show_details:
-     - 62476  # LEGO Marvel Super Heroes: Maximum Overload (2013)
-     - 103212 # LEGO Marvel Super Heroes: Guardians of the Galaxy - The Thanos Threat (2017)
-     - 103213 # LEGO Marvel Super Heroes: Black Panther - Trouble in Wakanda (2018)
-     - 112851 # LEGO Marvel Avengers: Climate Conundrum (2020)
+   tvdb_show_details:
+     - 354864 # Contains below plus more
+#   tmdb_show_details:
+#     - 62476  # LEGO Marvel Super Heroes: Maximum Overload (2013)
+#     - 103212 # LEGO Marvel Super Heroes: Guardians of the Galaxy - The Thanos Threat (2017)
+#     - 103213 # LEGO Marvel Super Heroes: Black Panther - Trouble in Wakanda (2018)
+#     - 112851 # LEGO Marvel Avengers: Climate Conundrum (2020)
  "Marvel Legacy":
    sort_title: Marvel-Legacy
    tmdb_show_details:

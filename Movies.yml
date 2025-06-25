@@ -699,6 +699,17 @@ collections:
       - 1185806 # Paw Patrol: The Dino Movie (2026)
       - 980431  # The Legend of Aang: The Last Airbender (2026)
       - 1156621 # Teenage Mutant Ninja Turtles: Mutant Mayhem 2 (2027)
+  "LOCUS Animation":
+    sort_title: LOCUS-10 - LOCUS Animation
+    tmdb_movie_details:
+      - 561219  # Running Man: The Ultimate Challenge (2018)
+      - 486589  # Red Shoes and the Seven Dwarfs (2019)
+      - 1095932 # Running Man: Revengers (2023)
+      - 1252371 # Yumi's Cells: The Movie (2024)
+      - 1233199 # Exorcism Chronicles: The Beginning (2025)
+      # --- Unreleased
+      # - # Running Man: Light and Shadow
+      # - # Dragon Raja
   ## Random Collections ------------------------------------------------------------------
   "Back to the Future":
     sort_title: Z99-Back to the Future

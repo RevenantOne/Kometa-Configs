@@ -479,6 +479,7 @@ collections:
       - 24589   # Dug's Special Mission
       - 10681   # Wall-E
       - 13413   # Burn-E
+      - 1022787 # Elio
   "Pixar Short Films":
     sort_title: Pixar-5 - Pixar Short Films
     tmdb_movie_details:

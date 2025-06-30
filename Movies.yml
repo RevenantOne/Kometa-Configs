@@ -262,7 +262,7 @@ collections:
       - 41800 #Superman and the Mole Men
   ## Children's Collections -------------------------------------------------------------
   "Disney Animation":
-    sort_title: Disney-3 Disney Animation
+    sort_title: 1 Disney Animation
     tmdb_movie_details:
       - 12230   # 101 Dalmations
       - 13654   # 101 Dalmations II: Patch's London Adventure
@@ -385,7 +385,7 @@ collections:
       - 269149  # Zootopia
       - 1084242 # Zootopia 2
   "Disney Live-Action":
-    sort_title: Disney-3 Disney Live-Action
+    sort_title: 1 Disney Live-Action
     tmdb_movie_details:
       - 11674  # 101 Dalmations
       - 10481  # 102 Dalmations
@@ -409,7 +409,7 @@ collections:
       - 447277 # The Little Mermaid
       - 420814 # Christopher Robin
   "Illumination":
-    sort_title: Illumination-4 - Illumination
+    sort_title: 1 Illumination
     tmdb_movie_details:
       - 20352   # Despicable Me
       - 93456   # Despicable Me 2
@@ -437,7 +437,7 @@ collections:
       - 412117  # The Secret Life of Pets 2
       - 1109206 # The Secret Life of Pets 3
   "Pixar":
-    sort_title: Pixar-5 - Pixar
+    sort_title: 1 Pixar
     tmdb_movie_details:
       - 9487    # A Bug's Life
       - 62177   # Brave
@@ -481,7 +481,7 @@ collections:
       - 13413   # Burn-E
       - 1022787 # Elio
   "Pixar Short Films":
-    sort_title: Pixar-5 - Pixar Short Films
+    sort_title: 1 Pixar Short Films
     tmdb_movie_details:
       - 13924  # The Adventures of Andre & Wally B.
       - 13926  # Red's Dream
@@ -504,7 +504,7 @@ collections:
       - 433471 # Lou
       - 514754 # Bao
   "DreamWorks Animation":
-    sort_title: Dreamworks-6 - DreamWorks Animation
+    sort_title: 1 DreamWorks Animation
     tmdb_movie_details:
       - 431580  # Abominable
       - 8916    # Antz
@@ -587,7 +587,7 @@ collections:
       - 77950   # Turbo
       - 533     # Wallace & Gromit: The Curse of the Were-Rabbit
   "Sony Pictures Animation":
-    sort_title: Sony-7 - Sony Pictures Animation
+    sort_title: 1 Sony Pictures Animation
     tmdb_movie_details:
       - 51052   # Arthur Christmas
       - 22794   # Cloudy with a Chance of Meatballs
@@ -622,7 +622,7 @@ collections:
       - 449406  # Vivo
       - 550205  # Wish Dragon
   "Blue Sky Studios":
-    sort_title: BlueSkyStudios-8 - Blue Sky Studios
+    sort_title: 1 Blue Sky Studios
     tmdb_movie_details:
       - 425    # Ice Age (2002)
       - 9928   # Robots (2005)
@@ -639,7 +639,7 @@ collections:
       - 431693 # Spies in Disguise (2019)
       - 961323 # Nimona (2023)
   "Nickelodeon":
-    sort_title: Nickelodeon-9 - Nickelodeon
+    sort_title: 1 Nickelodeon
     tmdb_movie_details:
       - 38223  # Harriet the Spy (1996)
       - 14817  # Good Burger (1997)
@@ -666,7 +666,7 @@ collections:
    # --- Unreleased
       - 1208798 # Good Burger 3 (?)
   "Nickelodeon Animation":
-    sort_title: Nickelodeon-9 - Nickelodeon Animation
+    sort_title: 1 Nickelodeon Animation
     tmdb_movie_details:
       - 14444   # The Rugrats Movie (1998)
       - 16340   # Rugrats in Paris: The Movie (2000)
@@ -700,7 +700,7 @@ collections:
       - 980431  # The Legend of Aang: The Last Airbender (2026)
       - 1156621 # Teenage Mutant Ninja Turtles: Mutant Mayhem 2 (2027)
   "LOCUS Animation":
-    sort_title: LOCUS-10 - LOCUS Animation
+    sort_title: 1 LOCUS Animation
     tmdb_movie_details:
       - 561219  # Running Man: The Ultimate Challenge (2018)
       - 486589  # Red Shoes and the Seven Dwarfs (2019)
@@ -711,7 +711,7 @@ collections:
       # - # Running Man: Light and Shadow
       # - # Dragon Raja
   "SkyDance Animation":
-    sort_title: SkyDance-11 - SkyDance Animation
+    sort_title: 1 SkyDance Animation
     tmdb_movie_details:
       - 585511  # Luck (2022)
       - 592983  # Spellbound (2024)      
@@ -725,7 +725,7 @@ collections:
       - 1101423 # Bad Luck Spot (2023)
       - 1451406 # Flink's Pigeon Problems: A Magical Rescue (2025)
   "Studio Ghibli":
-    sort_title: Ghibli-12 - Studio Ghibli
+    sort_title: 1 Studio Ghibli
     tmdb_movie_details:
       - 10515  # Castle in the Sky (1986)
       - 12477  # Grave of the Fireflies (1988)
